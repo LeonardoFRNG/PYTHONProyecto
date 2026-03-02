@@ -11,4 +11,6 @@ else:
 
 total = precioComida + propina
 
-print(f"{nombre} debe pagar de propina un {propina}%, y su total es de {int(total)}$\n")
+print(
+    f"{nombre} debe pagar de propina {int(propina)}$, y su total es de {int(total)}$\n"
+)
